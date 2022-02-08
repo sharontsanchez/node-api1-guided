@@ -1,8 +1,3 @@
-const server = require('./api/server');
-const PORT = 8080;
+// import the server and start it 
 
-console.log('hello world!!!!!');
-
-server.listen(PORT, () => {
-    console.log('server started');
-});
+console.log('hello world!!!')
